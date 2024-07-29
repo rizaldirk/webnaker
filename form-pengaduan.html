@@ -3,7 +3,7 @@
 
     <head>
         <meta charset="utf-8">
-        <title>Layanan-Disnakerintrans</title>
+        <title>Pengaduan Masyarakat-Disnakerintrans</title>
         <meta content="width=device-width, initial-scale=1.0" name="viewport">
         <meta content="" name="keywords">
         <meta content="" name="description">
@@ -38,8 +38,8 @@
         <!-- Spinner End -->
 
 
-       <!-- Navbar start -->
-       <div class="container-fluid fixed-top">
+      <!-- Navbar start -->
+      <div class="container-fluid fixed-top">
         <div class="container topbar bg-primary d-none d-lg-block">
             <div class="d-flex justify-content-between">
                 <div class="top-info ps-2">
@@ -139,138 +139,160 @@
     <!-- Navbar End -->
 
 
+        <!-- Modal Search Start -->
+        <div class="modal fade" id="searchModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-fullscreen">
+                <div class="modal-content rounded-0">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Search by keyword</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body d-flex align-items-center">
+                        <div class="input-group w-75 mx-auto d-flex">
+                            <input type="search" class="form-control p-3" placeholder="keywords" aria-describedby="search-icon-1">
+                            <span id="search-icon-1" class="input-group-text p-3"><i class="fa fa-search"></i></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal Search End -->
+
+
         <!-- Single Page Header start -->
         <div class="container-fluid page-header py-5">
-            <h1 class="text-center text-white display-6">Layanan Masyarakat</h1>
+            <h1 class="text-center text-white display-6">Pembuatan & Perpanjang</h1>
             <ol class="breadcrumb justify-content-center mb-0">
-                <h1 class="text-secondary">DISNAKERINTRANS</h1>
+                <h1 class="text-secondary">Kartu AK-1</h1>
 
             </ol>
         </div>
         <!-- Single Page Header End -->
 
 
+        
         <!-- Single Product Start -->
-        <div class="container-fluid fruite py-5">
+        <div class="container-fluid py-5 mt-5">
             <div class="container py-5">
-                <div class="tab-class text-center">
-                    <!--
-                    <div class="col-lg-12">
-                        <h2 class="fw-bold mb-3">layanan DISNAKERINTRANS</h2>
-                    </div>
-                    -->
-                    <div class="tab-content">
-                        <div id="tab-1" class="tab-pane fade show p-0 active">
-                            <div class="row g-4">
-                                <div class="col-lg-12">
-                                    <div class="row g-4">
-                                        <div class="col-md-6 col-lg-4 col-xl-3">
-                                            <div class="rounded position-relative fruite-item">
-                                                <div class="fruite-img">
-                                                    <a href="ak1.html" class="h5"><img src="img/layanan/layanan-1.png" class="img-fluid w-100 rounded-top" alt=""></a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6 col-lg-4 col-xl-3">
-                                            <div class="rounded position-relative fruite-item">
-                                                
-                                                <div class="fruite-img">
-                                                    <a href="pengaduan.html" class="h5"><img src="img/layanan/pengaduan.png" class="img-fluid w-100 rounded-top" alt=""></a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6 col-lg-4 col-xl-3">
-                                            <div class="rounded position-relative fruite-item">
-                                                
-                                                <div class="fruite-img">
-                                                    <a href="ak1.html" class="h5"><img src="img/layanan/layanan-3.png" class="img-fluid w-100 rounded-top" alt=""></a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6 col-lg-4 col-xl-3">
-                                            <div class="rounded position-relative fruite-item">
-                                                
-                                                <div class="fruite-img">
-                                                    <a href="ak1.html" class="h5"><img src="img/layanan/layanan-4.png" class="img-fluid w-100 rounded-top" alt=""></a>
-                                                </div>
-                                            </div>
-                                        </div>
+                <div class="row g-4 mb-5">
+                    <div class="col-lg-8 col-xl-9">
+                        <div class="row g-4">
+                            
+                            <div class="col-lg-6">
+                                <h2 class="fw-bold mb-3">Form Pengajuan Pembuatan AK-1</h2>
 
-                                        <div class="col-md-6 col-lg-4 col-xl-3">
-                                            <div class="rounded position-relative fruite-item">
-                                                <div class="fruite-img">
-                                                    <a href="ak1.html" class="h5"><img src="img/layanan/layanan-1.png" class="img-fluid w-100 rounded-top" alt=""></a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6 col-lg-4 col-xl-3">
-                                            <div class="rounded position-relative fruite-item">
+                            </div>
+                            <div class="col-lg-12">
+                                
+                                <div class="tab-content mb-5">
+                                    <div class="tab-pane active" id="nav-about" role="tabpanel" aria-labelledby="nav-about-tab">
+                                        <div class="col-lg-10">
+                                            
+                                            <form action="" class="">
+                                                <input type="text" class="w-100 form-control border-primary py-3 mb-4" placeholder="Nama">
+                                                <input type="text" class="w-100 form-control border-primary py-3 mb-4" placeholder="Alamat">
+                                                <input type="text" class="w-100 form-control border-primary py-3 mb-4" placeholder="Pekerjaan">
+                                                <input type="email" class="w-100 form-control border-primary py-3 mb-4" placeholder="Email">
+                                                <input type="phone" class="w-100 form-control border-primary py-3 mb-4" placeholder="Nomer Telephon">
+                                                <textarea class="w-100 form-control border-primary mb-0" rows="5" cols="10" placeholder="Pesan Anda"></textarea>
                                                 
-                                                <div class="fruite-img">
-                                                    <a href="ak1.html" class="h5"><img src="img/layanan/layanan-2.png" class="img-fluid w-100 rounded-top" alt=""></a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6 col-lg-4 col-xl-3">
-                                            <div class="rounded position-relative fruite-item">
+                                                <label for="file" ></label>
+                                                <input type ="file" class="w-100 form-control border-primary py-3 mb-4" name="file" type="file" />
                                                 
-                                                <div class="fruite-img">
-                                                    <a href="ak1.html" class="h5"><img src="img/layanan/layanan-3.png" class="img-fluid w-100 rounded-top" alt=""></a>
-                                                </div>
-                                            </div>
+                                                <button class="w-100 btn form-control btn border-0 border-secondary py-2 bg-primary text-white " type="submit">Kirim</button>
+                                            </form>
                                         </div>
-                                        <div class="col-md-6 col-lg-4 col-xl-3">
-                                            <div class="rounded position-relative fruite-item">
-                                                
-                                                <div class="fruite-img">
-                                                    <a href="ak1.html" class="h5"><img src="img/layanan/layanan-4.png" class="img-fluid w-100 rounded-top" alt=""></a>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="col-md-6 col-lg-4 col-xl-3">
-                                            <div class="rounded position-relative fruite-item">
-                                                <div class="fruite-img">
-                                                    <a href="ak1.html" class="h5"><img src="img/layanan/layanan-1.png" class="img-fluid w-100 rounded-top" alt=""></a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6 col-lg-4 col-xl-3">
-                                            <div class="rounded position-relative fruite-item">
-                                                
-                                                <div class="fruite-img">
-                                                    <a href="ak1.html" class="h5"><img src="img/layanan/layanan-2.png" class="img-fluid w-100 rounded-top" alt=""></a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6 col-lg-4 col-xl-3">
-                                            <div class="rounded position-relative fruite-item">
-                                                
-                                                <div class="fruite-img">
-                                                    <a href="ak1.html" class="h5"><img src="img/layanan/layanan-3.png" class="img-fluid w-100 rounded-top" alt=""></a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6 col-lg-4 col-xl-3">
-                                            <div class="rounded position-relative fruite-item">
-                                                
-                                                <div class="fruite-img">
-                                                    <a href="ak1.html" class="h5"><img src="img/layanan/layanan-4.png" class="img-fluid w-100 rounded-top" alt=""></a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        
+                                    </div>
+                                    
+                                    <div class="tab-pane" id="nav-vision" role="tabpanel">
+                                        <p class="text-dark">Tempor erat elitr rebum at clita. Diam dolor diam ipsum et tempor sit. Aliqu diam
+                                            amet diam et eos labore. 3</p>
+                                        <p class="mb-0">Diam dolor diam ipsum et tempor sit. Aliqu diam amet diam et eos labore.
+                                            Clita erat ipsum et lorem et sit</p>
                                     </div>
                                 </div>
                             </div>
-                        </div>   
+                            
+                        </div>
                     </div>
-                    
-                </div>  
-                  
-            </div>
-        </div>
+                    <div class="col-lg-4 col-xl-3">
+                        <div class="row g-4 fruite">
+                            <div class="col-lg-12">
+                                <div class="input-group w-100 mx-auto d-flex mb-4">
+                                    <input type="search" class="form-control p-3" placeholder="keywords" aria-describedby="search-icon-1">
+                                    <span id="search-icon-1" class="input-group-text p-3"><i class="fa fa-search"></i></span>
+                                </div>
+                                <div class="col-lg-12">
+                                        <div class="mb-3">
+                                            <h4>Layanan Lainya</h4>
+                                            <ul class="list-unstyled fruite-categorie">
+                                                <li>
+                                                  
+                                                    <div class="d-flex justify-content-between fruite-name">
+                                                        <a href="#"><i class="fas fa-circle me-2"></i>Pengaduan Masyarakat</a>
+                                                       
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="d-flex justify-content-between fruite-name">
+                                                        <a href="#"><i class="fas fa-circle me-2"></i>Maklumat Pelayanan</a>
+                                                       
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="d-flex justify-content-between fruite-name">
+                                                        <a href="#"><i class="fas fa-circle me-2"></i>Standar Pelayanan</a>
+                                                       
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="d-flex justify-content-between fruite-name">
+                                                        <a href="#"><i class="fas fa-circle me-2"></i>Permohonan Informasi Publik</a>
+                                                       
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="d-flex justify-content-between fruite-name">
+                                                        <a href="#"><i class="fas fa-circle me-2"></i>Layanan Interaktif</a>
+                                                   
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="d-flex justify-content-between fruite-name">
+                                                        <a href="#"><i class="fas fa-circle me-2"></i>Pengajuan Keberatan</a>
+                                                     
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="d-flex justify-content-between fruite-name">
+                                                        <a href="#"><i class="fas fa-circle me-2"></i>Survey Kepuasan Masyarakat</a>
+                                                       
+                                                    </div>
+                                                </li>
+                                                
+                                            </ul>
+                                        </div>
+                                    </div>
 
+                           
+                            </div>
+                            
+                            <div class="col-lg-12">
+                                <div class="position-relative">
+                                    <img src="img/banner-fruits.jpg" class="img-fluid w-100 rounded" alt="">
+                                    <div class="position-absolute" style="top: 50%; right: 10px; transform: translateY(-50%);">
+                                        <h3 class="text-secondary fw-bold">No <br> Pungli <br></h3>
+                                                <h3 class="text-primary fw-bold"> No <br> Korupsi</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+        </div>
+        <!-- Single Product End -->
+    
         <!-- Footer Start -->
         <div class="container-fluid bg-dark text-white-50 footer pt-5 mt-5">
             <div class="container py-5">
